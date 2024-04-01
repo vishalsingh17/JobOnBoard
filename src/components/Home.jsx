@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Welcome from './Welcome';
 import Features from './Features';
 import Benefits from './Benefits';
+import Jobs from './Jobs';
 
 function Home() {
 
@@ -285,8 +286,33 @@ function Home() {
                     <Welcome/>
                     <Features/>
                     <Benefits/>
+                    <Jobs/>
                 </div>
             </div>
+            <link
+              rel="stylesheet"
+              id="jeg-dynamic-style-css"
+              href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles.css?ver=1.3.0"
+              media="all"
+          />
+          <link
+              rel="stylesheet"
+              id="sweetalert2-css"
+              href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.css?ver=11.6.16"
+              media="all"
+          />
+          <link
+              rel="stylesheet"
+              id="tiny-slider-css"
+              href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.css?ver=2.9.3"
+              media="all"
+          />
+          <link
+              rel="stylesheet"
+              id="e-animations-css"
+              href="https://advanture.icu/jobmart/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.17.3"
+              media="all"
+          />
         </div> 
     )     
 }
