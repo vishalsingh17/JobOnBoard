@@ -5,6 +5,8 @@ import Welcome from './Welcome';
 import Features from './Features';
 import Benefits from './Benefits';
 import Jobs from './Jobs';
+import SpecialFeatures from './SpecialFeatures';
+import Reviews from './Reviews';
 
 function Home() {
 
@@ -287,6 +289,8 @@ function Home() {
                     <Features/>
                     <Benefits/>
                     <Jobs/>
+                    <SpecialFeatures/>
+                    <Reviews/>
                 </div>
             </div>
             <link
