@@ -7,6 +7,8 @@ import Benefits from './Benefits';
 import Jobs from './Jobs';
 import SpecialFeatures from './SpecialFeatures';
 import Reviews from './Reviews';
+import Community from './Community';
+import CommonQues from './CommonQues';
 
 function Home() {
 
@@ -291,6 +293,8 @@ function Home() {
                     <Jobs/>
                     <SpecialFeatures/>
                     <Reviews/>
+                    <Community/>
+                    <CommonQues/>
                 </div>
             </div>
             <link
