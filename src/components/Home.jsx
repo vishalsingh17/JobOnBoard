@@ -9,6 +9,8 @@ import SpecialFeatures from './SpecialFeatures';
 import Reviews from './Reviews';
 import Community from './Community';
 import CommonQues from './CommonQues';
+import JoinNow from './JoinNow';
+import Pricing from './Pricing';
 
 function Home() {
 
@@ -295,6 +297,8 @@ function Home() {
                     <Reviews/>
                     <Community/>
                     <CommonQues/>
+                    <JoinNow/>
+                    <Pricing/>
                 </div>
             </div>
             <link
