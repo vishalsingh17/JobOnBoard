@@ -11,6 +11,9 @@ import Community from './Community';
 import CommonQues from './CommonQues';
 import JoinNow from './JoinNow';
 import Pricing from './Pricing';
+import Ratings from './Ratings';
+import FrequentlyAsked from './FrequentlyAsked';
+import Footer from './Footer';
 
 function Home() {
 
@@ -299,6 +302,9 @@ function Home() {
                     <CommonQues/>
                     <JoinNow/>
                     <Pricing/>
+                    <Ratings/>
+                    <FrequentlyAsked/>
+                    <Footer/>
                 </div>
             </div>
             <link
