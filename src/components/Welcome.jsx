@@ -25,7 +25,7 @@ function Welcome() {
                                 data-widget_type="text-editor.default"
                             >
                                 <div className="elementor-widget-container">
-                                    <p>Welcome to JobMart</p>
+                                    <p>Welcome to Job Onboard</p>
                                 </div>
                             </div>
                             <div
@@ -38,14 +38,12 @@ function Welcome() {
                                     <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_1_6604237b1e2ee">
                                         <div className="heading-section-title  display-inline-block">
                                             <h2 className="heading-title">
-                                                Best hiring agency to connect with the best talents
+                                            Best interview preparation platform for the best talents
                                             </h2>
                                         </div>
                                         <div className="heading-section-description">
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit
-                                                voluptatem accusantium doloremque laudantium, totam rem
-                                                aperiam, eaque ipsa quae&nbsp;
+                                            Unlock your career potential and empower your job search with our expert consultation, job hacks, and guaranteed interview calls.
                                             </p>
                                         </div>
                                     </div>

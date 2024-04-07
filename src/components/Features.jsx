@@ -51,7 +51,7 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Career Check-ins
+                                                                Career Growth
                                                             </h3>
                                                             <p className="elementor-image-box-description">
                                                                 The ultimate community and training platform for
@@ -91,7 +91,7 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Strategize Career
+                                                                Personalized Path
                                                             </h3>
                                                             <p className="elementor-image-box-description">
                                                                 The ultimate community and training platform for
@@ -131,7 +131,7 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Free Coaching
+                                                                Job Hacks
                                                             </h3>
                                                             <p className="elementor-image-box-description">
                                                                 The ultimate community and training platform for
