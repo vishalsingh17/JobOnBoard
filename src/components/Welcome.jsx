@@ -38,7 +38,7 @@ function Welcome() {
                                     <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_1_6604237b1e2ee">
                                         <div className="heading-section-title  display-inline-block">
                                             <h2 className="heading-title">
-                                            Best interview preparation platform for the best talents
+                                            The smart platform to unlock your career potential
                                             </h2>
                                         </div>
                                         <div className="heading-section-description">
