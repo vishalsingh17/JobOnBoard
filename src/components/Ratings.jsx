@@ -156,7 +156,7 @@ function Ratings() {
                 </div>
             </section>
 
-            <section
+            {/* <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-45dc9d8 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="45dc9d8"
                 data-element_type="section"
@@ -451,7 +451,7 @@ function Ratings() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

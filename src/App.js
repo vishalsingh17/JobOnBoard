@@ -5,6 +5,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Routes>
         
           <Route exact path="/" element={<Home/>}>
+          </Route>
+
+          <Route exact path="/contact" element={<Contact/>}>
           </Route>
 
         </Routes>
