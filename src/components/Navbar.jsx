@@ -112,15 +112,17 @@ function Navbar() {
                                                                                 id="menu-item-71"
                                                                                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"
                                                                             >
-                                                                                <a href="/rfd">
-                                                                                    About
+                                                                                <a href="/services">
+                                                                                    Service
                                                                                 </a>
                                                                             </li>
                                                                             <li
                                                                                 id="menu-item-74"
                                                                                 className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-74"
                                                                             >
-
+                                                                                <a href="#">
+                                                                                    Contact
+                                                                                </a>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
