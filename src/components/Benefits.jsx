@@ -184,34 +184,7 @@ function Benefits() {
                                     </div>
                                 </div>
                             </div>
-                            
-                            <div
-                                className="elementor-element elementor-element-39344a12 elementor-position-left elementor-view-stacked elementor-shape-square elementor-vertical-align-middle elementor-mobile-position-left elementor-widget elementor-widget-icon-box"
-                                data-id="39344a12"
-                                data-element_type="widget"
-                                data-widget_type="icon-box.default"
-                            >
-                                <div className="elementor-widget-container">
-                                    <div className="elementor-icon-box-wrapper">
-                                        <div className="elementor-icon-box-icon">
-                                            <span className="elementor-icon elementor-animation-">
-                                                <i
-                                                    aria-hidden="true"
-                                                    className="icon icon-smartphone2"
-                                                />{" "}
-                                            </span>
-                                        </div>
-                                        <div className="elementor-icon-box-content">
-                                            <div className="elementor-icon-box-title">
-                                                <span>Build Strong Network </span>
-                                            </div>
-                                            <p className="elementor-icon-box-description">
-                                                Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                             <div
                                 className="elementor-element elementor-element-67008931 elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box"
                                 data-id={67008931}
@@ -230,6 +203,34 @@ function Benefits() {
                                         </div>
                                         <div className="elementor-icon-box-content">
                                             <div className="elementor-icon-box-title">
+                                                <span>Build Strong Network </span>
+                                            </div>
+                                            <p className="elementor-icon-box-description">
+                                                Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                className="elementor-element elementor-element-39344a12 elementor-position-left elementor-view-stacked elementor-shape-square elementor-vertical-align-middle elementor-mobile-position-left elementor-widget elementor-widget-icon-box"
+                                data-id="39344a12"
+                                data-element_type="widget"
+                                data-widget_type="icon-box.default"
+                            >
+                                <div className="elementor-widget-container">
+                                    <div className="elementor-icon-box-wrapper">
+                                        <div className="elementor-icon-box-icon">
+                                            <span className="elementor-icon elementor-animation-">
+                                                <i
+                                                    aria-hidden="true"
+                                                    className="icon icon-smartphone2"
+                                                />{" "}
+                                            </span>
+                                        </div>
+                                        <div className="elementor-icon-box-content">
+                                            <div className="elementor-icon-box-title">
                                                 <span>Get Your Dream Job </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
@@ -239,6 +240,7 @@ function Benefits() {
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
