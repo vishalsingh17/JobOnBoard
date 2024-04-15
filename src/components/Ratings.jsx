@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react'
+// import useEmblaCarousel from 'embla-carousel-react'
+// import Autoplay from 'embla-carousel-autoplay'
+import './Ratings.css';
+import Marquee from "react-fast-marquee";
 
 function Ratings() {
+
+    // const [emblaRef] = useEmblaCarousel({ loop: false, autoplay: true }, [Autoplay()])
     const CardData = [
         {
             id: 1,
@@ -20,10 +26,30 @@ function Ratings() {
             location: 'Doha, Qatar',
             imageUrl: 'https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/Logomark-2.png'
         },
+        {
+            id: 4,
+            title: 'Cico Ltd',
+            location: 'Doha, Qatar',
+            imageUrl: 'https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/Logomark.png'
+        },
+        {
+            id: 5,
+            title: 'Bimber Ltd',
+            location: 'Doha, Qatar',
+            imageUrl: 'https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/Logomark-3.png'
+        },
+        {
+            id: 6,
+            title: 'Atlassian CO',
+            location: 'Doha, Qatar',
+            imageUrl: 'https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/Logomark-2.png'
+        },
+
         // Add more card data objects as needed
     ];
 
     return (
+
         <div>
             <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-3cb26da9 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -67,89 +93,96 @@ function Ratings() {
                                 data-id="d360c83"
                                 data-element_type="section"
                             >
-                                <div className="elementor-container elementor-column-gap-default">
 
-                                    {CardData.map(card => (
-                                        <div key={card.id} className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-687d921a"
-                                        data-id="687d921a"
-                                        data-element_type="column"
-                                        data-settings='{"background_background":"classic"}'>
-                                            <div className="elementor-widget-wrap elementor-element-populated">
-                                                <div className="elementor-element elementor-element-f36430 elementor-position-top elementor-widget elementor-widget-image-box">
-                                                    <div className="elementor-widget-container">
-                                                        <div className="elementor-image-box-wrapper">
-                                                            <figure className="elementor-image-box-img">
-                                                                <img
-                                                                    width={44}
-                                                                    height={44}
-                                                                    src={card.imageUrl}
-                                                                    className="attachment-full size-full wp-image-373"
-                                                                    alt=""
-                                                                    decoding="async"
-                                                                    loading="lazy"
-                                                                />
-                                                            </figure>
-                                                            <div className="elementor-image-box-content">
-                                                                <h3 className="elementor-image-box-title">
-                                                                    {card.title}
-                                                                </h3>
-                                                                <p className="elementor-image-box-description">
-                                                                    {card.location}
-                                                                </p>
+                                <div className="elementor-container elementor-column-gap-default">
+                                    <Marquee>
+                                        {CardData.map(card => (
+
+                                            <div key={card.id} className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-687d921a"
+                                                data-id="687d921a"
+                                                data-element_type="column"
+                                                data-settings='{"background_background":"classic"}'>
+
+                                                <div className="elementor-widget-wrap elementor-element-populated">
+
+                                                    <div className="elementor-element elementor-element-f36430 elementor-position-top elementor-widget elementor-widget-image-box">
+                                                        <div className="elementor-widget-container">
+                                                            <div className="elementor-image-box-wrapper">
+                                                                <figure className="elementor-image-box-img">
+                                                                    <img
+                                                                        width={44}
+                                                                        height={44}
+                                                                        src={card.imageUrl}
+                                                                        className="attachment-full size-full wp-image-373"
+                                                                        alt=""
+                                                                        decoding="async"
+                                                                        loading="lazy"
+                                                                    />
+                                                                </figure>
+                                                                <div className="elementor-image-box-content">
+                                                                    <h3 className="elementor-image-box-title">
+                                                                        {card.title}
+                                                                    </h3>
+                                                                    <p className="elementor-image-box-description">
+                                                                        {card.location}
+                                                                    </p>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div className="elementor-element elementor-element-60d0770a elementor-star-rating--align-center elementor-star-rating-tablet--align-left elementor-widget__width-inherit elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating">
-                                                    <div className="elementor-widget-container">
-                                                        <div className="elementor-star-rating__wrapper">
-                                                            <div
-                                                                className="elementor-star-rating"
-                                                                title="5/5"
-                                                                itemType="http://schema.org/Rating"
-                                                                itemScope=""
-                                                                itemProp="reviewRating"
-                                                            >
-                                                                <i className="elementor-star-full"></i>
-                                                                <i className="elementor-star-full"></i>
-                                                                <i className="elementor-star-full"></i>
-                                                                <i className="elementor-star-full"></i>
-                                                                <i className="elementor-star-full"></i>{" "}
-                                                                <span
-                                                                    itemProp="ratingValue"
-                                                                    className="elementor-screen-only"
+                                                    <div className="elementor-element elementor-element-60d0770a elementor-star-rating--align-center elementor-star-rating-tablet--align-left elementor-widget__width-inherit elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating">
+                                                        <div className="elementor-widget-container">
+                                                            <div className="elementor-star-rating__wrapper">
+                                                                <div
+                                                                    className="elementor-star-rating"
+                                                                    title="5/5"
+                                                                    itemType="http://schema.org/Rating"
+                                                                    itemScope=""
+                                                                    itemProp="reviewRating"
                                                                 >
-                                                                    5/5
-                                                                </span>
+                                                                    <i className="elementor-star-full"></i>
+                                                                    <i className="elementor-star-full"></i>
+                                                                    <i className="elementor-star-full"></i>
+                                                                    <i className="elementor-star-full"></i>
+                                                                    <i className="elementor-star-full"></i>{" "}
+                                                                    <span
+                                                                        itemProp="ratingValue"
+                                                                        className="elementor-screen-only"
+                                                                    >
+                                                                        5/5
+                                                                    </span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div className="elementor-element elementor-element-124ca30 elementor-widget__width-initial elementor-widget elementor-widget-text-editor">
-                                                    <div className="elementor-widget-container">
-                                                        <p>5 star review</p>
+                                                    <div className="elementor-element elementor-element-124ca30 elementor-widget__width-initial elementor-widget elementor-widget-text-editor">
+                                                        <div className="elementor-widget-container">
+                                                            <p>5 star review</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div className="elementor-element elementor-element-1328d3b4 elementor-align-center elementor-tablet-align-justify elementor-widget elementor-widget-button">
-                                                    <div className="elementor-widget-container">
-                                                        <div className="elementor-button-wrapper">
-                                                            <a
-                                                                className="elementor-button elementor-button-link elementor-size-sm"
-                                                                href="#"
-                                                            >
-                                                                <span className="elementor-button-content-wrapper">
-                                                                    <span className="elementor-button-text">
-                                                                        View Jobs
+                                                    <div className="elementor-element elementor-element-1328d3b4 elementor-align-center elementor-tablet-align-justify elementor-widget elementor-widget-button">
+                                                        <div className="elementor-widget-container">
+                                                            <div className="elementor-button-wrapper">
+                                                                <a
+                                                                    className="elementor-button elementor-button-link elementor-size-sm"
+                                                                    href="#"
+                                                                >
+                                                                    <span className="elementor-button-content-wrapper">
+                                                                        <span className="elementor-button-text">
+                                                                            View Jobs
+                                                                        </span>
                                                                     </span>
-                                                                </span>
-                                                            </a>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    ))}
+
+                                        ))}
+                                    </Marquee>
                                 </div>
+
                             </section>
                         </div>
                     </div>
