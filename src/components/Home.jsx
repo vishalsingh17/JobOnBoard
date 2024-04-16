@@ -14,6 +14,8 @@ import Pricing from './Pricing';
 import Ratings from './Ratings';
 import FrequentlyAsked from './FrequentlyAsked';
 import Footer from './Footer';
+import PopupForm from './PopupForm';
+import Tawkchat from './Tawkchat';
 
 function Home() {
 
@@ -286,53 +288,57 @@ function Home() {
                 </defs>
             </svg>
             <div id="page" className="hfeed site">
-                <Navbar/>
+                <Navbar />
                 <div
                     data-elementor-type="wp-page"
                     data-elementor-id={61}
                     className="elementor elementor-61"
                 >
-                    <Welcome/>
-                    <Features/>
-                    <Benefits/>
-                    <Jobs/>
-                    <SpecialFeatures/>
-                    <Reviews/>
-                    <Community/>
-                    <CommonQues/>
-                    <JoinNow/>
-                    <Pricing/>
-                    <Ratings/>
-                    <FrequentlyAsked/>
-                    <Footer/>
+                    <PopupForm />
+                    <Welcome />
+                    <Features />
+                    <Benefits />
+                    <Jobs />
+                    <SpecialFeatures />
+                    <Reviews />
+                    <Community />
+                    <CommonQues />
+                    <JoinNow />
+                    <Pricing />
+                    <Ratings />
+                    <FrequentlyAsked />
+                    <Footer />
+                </div>
+                <div className='chat'>
+                    <Tawkchat />
                 </div>
             </div>
             <link
-              rel="stylesheet"
-              id="jeg-dynamic-style-css"
-              href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles.css?ver=1.3.0"
-              media="all"
-          />
-          <link
-              rel="stylesheet"
-              id="sweetalert2-css"
-              href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.css?ver=11.6.16"
-              media="all"
-          />
-          <link
-              rel="stylesheet"
-              id="tiny-slider-css"
-              href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.css?ver=2.9.3"
-              media="all"
-          />
-          <link
-              rel="stylesheet"
-              id="e-animations-css"
-              href="https://advanture.icu/jobmart/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.17.3"
-              media="all"
-          />
-        </div> 
-    )     
+                rel="stylesheet"
+                id="jeg-dynamic-style-css"
+                href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles.css?ver=1.3.0"
+                media="all"
+            />
+            <link
+                rel="stylesheet"
+                id="sweetalert2-css"
+                href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/assets/js/sweetalert2/sweetalert2.min.css?ver=11.6.16"
+                media="all"
+            />
+            <link
+                rel="stylesheet"
+                id="tiny-slider-css"
+                href="https://advanture.icu/jobmart/wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-slider.css?ver=2.9.3"
+                media="all"
+            />
+            <link
+                rel="stylesheet"
+                id="e-animations-css"
+                href="https://advanture.icu/jobmart/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.17.3"
+                media="all"
+            />
+        </div>
+    )
 }
 
 export default Home

@@ -3,11 +3,12 @@ import Home from './components/Home';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
 } from "react-router-dom";
 import Contact from './components/Contact';
 import Services from './components/Services';
 import CommingSoon from './components/CommingSoon';
+import PopupForm from './components/PopupForm';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
 
           <Route exact path="/commingsoon" element={<CommingSoon/>}>
+          </Route>
+
+          <Route exact path="/form" element={<PopupForm/>}>
           </Route>
 
         </Routes>
