@@ -3,6 +3,7 @@ import './Contact.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Community from './Community';
+import Tawkchat from './Tawkchat';
 
 function Contact() {
     return (
@@ -1262,10 +1263,10 @@ function Contact() {
                             </div>
                         </div>
                     </section>
+                    <Tawkchat/>
                 </div>
                 <Footer />
             </div>
-            {/* #page */}
         </div>
     )
 }
