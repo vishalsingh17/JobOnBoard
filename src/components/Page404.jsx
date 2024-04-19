@@ -1,6 +1,8 @@
 import React from 'react'
-import './CommingSoon.css';
-function CommingSoon() {
+import './Page404.css';
+import Tawkchat from './Tawkchat';
+
+function Page404() {
     return (
         <div className="page-template page-template-elementor_canvas page page-id-30 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-canvas elementor-kit-90 elementor-page elementor-page-30">
             <svg
@@ -268,7 +270,8 @@ function CommingSoon() {
                         <feComposite in2="SourceGraphic" operator="in" />
                     </filter>
                 </defs>
-            </svg>		<div data-elementor-type="wp-page" data-elementor-id="30" class="elementor elementor-30">
+            </svg>
+            <div data-elementor-type="wp-page" data-elementor-id="30" class="elementor elementor-30">
                 <section class="elementor-section elementor-top-section elementor-element elementor-element-b5db52d elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="b5db52d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
                     <div class="elementor-background-overlay"></div>
                     <div class="elementor-container elementor-column-gap-default">
@@ -281,7 +284,11 @@ function CommingSoon() {
                                 <div class="elementor-element elementor-element-ac40432 elementor-widget elementor-widget-elementskit-heading" data-id="ac40432" data-element_type="widget" data-widget_type="elementskit-heading.default">
                                     <div class="elementor-widget-container">
                                         <div class="ekit-wid-con" ><div class="ekit-heading elementskit-section-title-wraper text_center   ekit_heading_tablet-   ekit_heading_mobile-"><h2 class="ekit-heading--title elementskit-section-title "></h2>				<div class='ekit-heading__description'>
-                                            <p>The page you are looking for no longer exists or never existed. Perhaps you can return back to the site’s homepage and see if you can find what you are looking for.</p>
+                                            <p>The page you are looking for no longer exists or failed to load. Perhaps you can return back to the site’s homepage and see if you can find what you are looking for.
+                                            </p>
+                                            <p style={{ color: "red" }}>
+                                                To report an issue or talk to our support use the chat on the bottom right of the page.
+                                            </p>
                                         </div>
                                         </div></div>		</div>
                                 </div>
@@ -300,9 +307,10 @@ function CommingSoon() {
                         </div>
                     </div>
                 </section>
+                <Tawkchat/>
             </div>
         </div>
     )
 }
 
-export default CommingSoon
+export default Page404

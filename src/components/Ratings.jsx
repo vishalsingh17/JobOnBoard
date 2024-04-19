@@ -98,7 +98,7 @@ function Ratings() {
                                     <Marquee>
                                         {CardData.map(card => (
 
-                                            <div key={card.id} className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-687d921a"
+                                            <div key={card.id} className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-687d921a marquee123"
                                                 data-id="687d921a"
                                                 data-element_type="column"
                                                 data-settings='{"background_background":"classic"}'>

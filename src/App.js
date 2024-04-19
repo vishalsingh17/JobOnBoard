@@ -7,8 +7,8 @@ import {
 } from "react-router-dom";
 import Contact from './components/Contact';
 import Services from './components/Services';
-import CommingSoon from './components/CommingSoon';
 import PopupForm from './components/PopupForm';
+import Page404 from './components/Page404';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
           <Route exact path="/services" element={<Services/>}>
           </Route>
 
-          <Route exact path="/commingsoon" element={<CommingSoon/>}>
+          <Route exact path="/page404" element={<Page404/>}>
           </Route>
 
           <Route exact path="/form" element={<PopupForm/>}>
