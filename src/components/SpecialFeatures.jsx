@@ -38,14 +38,14 @@ function SpecialFeatures() {
                                     <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_3_6604237b4e196">
                                         <div className="heading-section-title  display-inline-block">
                                             <h2 className="heading-title">
-                                                Bridge for industrial and corporate development.
+                                                Uncover the Benefits of Our Unique Interview Hacks
                                             </h2>
                                         </div>
                                         <div className="heading-section-description">
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit
-                                                voluptatem accusantium doloremque laudantium, totam rem
-                                                aperiam, eaque ipsa quae&nbsp;
+                                                Our job hacks are specifically designed to give you an edge 
+                                                in the competitive job market, enhancing your job 
+                                                search and interview skills. &nbsp;
                                             </p>
                                         </div>
                                     </div>
@@ -80,7 +80,7 @@ function SpecialFeatures() {
                                                     </span>
                                                 </span>
                                                 <a className="elementor-toggle-title" tabIndex={0}>
-                                                    Best Hiring Agency
+                                                    Prepare interview ready profile
                                                 </a>
                                             </div>
                                             <div
@@ -116,7 +116,7 @@ function SpecialFeatures() {
                                                     </span>
                                                 </span>
                                                 <a className="elementor-toggle-title" tabIndex={0}>
-                                                    Quality Opportunities
+                                                    Prepare for the interview
                                                 </a>
                                             </div>
                                             <div
@@ -152,7 +152,7 @@ function SpecialFeatures() {
                                                     </span>
                                                 </span>
                                                 <a className="elementor-toggle-title" tabIndex={0}>
-                                                    Career Coaching
+                                                    Ace the interviews
                                                 </a>
                                             </div>
                                             <div
@@ -209,7 +209,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Fast Recognition </span>
+                                                                <span>Profile Optimization </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam
@@ -245,7 +245,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Job For Everyone </span>
+                                                                <span>Career Growth </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam
@@ -289,7 +289,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Best Treatment to Worker </span>
+                                                                <span>Community Support </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam
@@ -325,7 +325,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Big Company </span>
+                                                                <span>Job For Everyone </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam

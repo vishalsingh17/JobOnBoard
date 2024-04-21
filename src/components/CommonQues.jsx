@@ -4,18 +4,26 @@ function CommonQues() {
     const CardData1 = [
         {
             id: 1,
-            title: 'Career Coaching',
+            title: 'Interview Ready Profile',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
             link: '#',
             icon: 'icon-trophy1'
         },
         {
             id: 2,
-            title: 'Job Preparation',
+            title: 'Interview Preparation',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
             link: '#',
             icon: 'icon-user1'
         },
+        {
+            id: 2,
+            title: 'Ace the Interview',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+            link: '#',
+            icon: 'icon-user1'
+        },
+        
         // Add more card data as needed
     ];
     return (
@@ -124,7 +132,7 @@ function CommonQues() {
                                                             </div>
                                                             <div className="icon-box icon-box-body">
                                                                 <h2 className="title">
-                                                                    Ultimate features you get
+                                                                    Negotiate the Best Offer
                                                                 </h2>
                                                                 <div className="icon-box-button ">
                                                                     <div className="btn-wrapper icon-position-after">

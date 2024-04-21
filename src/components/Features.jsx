@@ -51,7 +51,7 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Career Growth
+                                                                Profile Building
                                                             </h3>
                                                             <p className="elementor-image-box-description">
                                                                 The ultimate community and training platform for
@@ -91,7 +91,7 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Personalized Path
+                                                                Mock Interviews
                                                             </h3>
                                                             <p className="elementor-image-box-description">
                                                                 The ultimate community and training platform for
@@ -131,7 +131,7 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Job Hacks
+                                                                Interview Hacks
                                                             </h3>
                                                             <p className="elementor-image-box-description">
                                                                 The ultimate community and training platform for
@@ -171,7 +171,7 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Active Hiring
+                                                                1v1 Mentorship
                                                             </h3>
                                                             <p className="elementor-image-box-description">
                                                                 The ultimate community and training platform for

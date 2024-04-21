@@ -113,7 +113,7 @@ function JoinNow() {
                             >
                                 <div className="elementor-widget-container">
                                     <h2 className="elementor-heading-title elementor-size-default">
-                                        Maximum opportunity for every job seeker{" "}
+                                        Maximize interview calls for every job seeker{" "}
                                     </h2>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@ function JoinNow() {
                                                 </div>
                                                 <div className="feature-list-content-box">
                                                     <h3 className="feature-list-title">
-                                                        Time Management
+                                                        Step by Step Guidance
                                                     </h3>
                                                     <p className="feature-list-content">
                                                         Facilisi conubia tortor purus non ac odio dis orci
@@ -176,7 +176,7 @@ function JoinNow() {
                                                 </div>
                                                 <div className="feature-list-content-box">
                                                     <h3 className="feature-list-title">
-                                                        Business Management
+                                                        Study & Practice Plan
                                                     </h3>
                                                     <p className="feature-list-content">
                                                         Facilisi conubia tortor purus non ac odio dis orci
@@ -198,7 +198,7 @@ function JoinNow() {
                                                 </div>
                                                 <div className="feature-list-content-box">
                                                     <h3 className="feature-list-title">
-                                                        High success rate
+                                                        Get Shorted for Interviews   
                                                     </h3>
                                                     <p className="feature-list-content">
                                                         Facilisi conubia tortor purus non ac odio dis orci

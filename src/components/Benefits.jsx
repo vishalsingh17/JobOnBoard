@@ -203,7 +203,7 @@ function Benefits() {
                                         </div>
                                         <div className="elementor-icon-box-content">
                                             <div className="elementor-icon-box-title">
-                                                <span>Get Your Dream Job </span>
+                                                <span>Build Strong Network </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
                                                 Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
@@ -232,7 +232,7 @@ function Benefits() {
                                         </div>
                                         <div className="elementor-icon-box-content">
                                             <div className="elementor-icon-box-title">
-                                                <span>Build Strong Network </span>
+                                                <span>Get Your Dream Job </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
                                                 Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
