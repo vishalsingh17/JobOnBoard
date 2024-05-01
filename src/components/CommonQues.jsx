@@ -5,22 +5,22 @@ function CommonQues() {
         {
             id: 1,
             title: 'Interview Ready Profile',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-            link: '#',
+            description: 'Craft a winning resume, elevate your profile on LinkedIn, Nauraki to stand out.',
+            link: './services',
             icon: 'icon-trophy1'
         },
         {
             id: 2,
             title: 'Interview Preparation',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-            link: '#',
+            description: 'Experience real interviews with tech experts to sharpen your skills and boost confidence.',
+            link: './services',
             icon: 'icon-user1'
         },
         {
-            id: 2,
+            id: 3,
             title: 'Ace the Interview',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-            link: '#',
+            description: 'We guarantee interview calls through our extensive network and personalized coaching, ensuring your success.',
+            link: './services',
             icon: 'icon-user1'
         },
         
@@ -136,7 +136,7 @@ function CommonQues() {
                                                                 </h2>
                                                                 <div className="icon-box-button ">
                                                                     <div className="btn-wrapper icon-position-after">
-                                                                        <a href="#" className="icon-box-link">
+                                                                        <a href="./services" className="icon-box-link">
                                                                             Learn More
                                                                         </a>
                                                                     </div>

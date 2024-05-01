@@ -142,7 +142,7 @@ function Benefits() {
                             >
                                 <div className="elementor-widget-container">
                                     <h2 className="elementor-heading-title elementor-size-default">
-                                        Guaranteed Interview Calls.
+                                        100% Guaranteed Interview Calls for You.
                                     </h2>
                                 </div>
                             </div>
@@ -154,9 +154,7 @@ function Benefits() {
                             >
                                 <div className="elementor-widget-container">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                        elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                                        leo.
+                                        With Job Onboard, rest assured of receiving interview calls, thanks to our targeted profile building and exhaustive preparation services, ensuring your readiness for any tech interview. 
                                     </p>
                                 </div>
                             </div>

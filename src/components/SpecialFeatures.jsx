@@ -38,7 +38,7 @@ function SpecialFeatures() {
                                     <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_3_6604237b4e196">
                                         <div className="heading-section-title  display-inline-block">
                                             <h2 className="heading-title">
-                                                Uncover the Benefits of Our Unique Interview Hacks
+                                                Features To Accelerate Your Career Journey 
                                             </h2>
                                         </div>
                                         <div className="heading-section-description">
@@ -83,7 +83,7 @@ function SpecialFeatures() {
                                                     Prepare interview ready profile
                                                 </a>
                                             </div>
-                                            <div
+                                            {/* <div
                                                 id="elementor-tab-content-1581"
                                                 className="elementor-tab-content elementor-clearfix"
                                                 data-tab={1}
@@ -93,7 +93,7 @@ function SpecialFeatures() {
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                 Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
                                                 dapibus leo.
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="elementor-toggle-item">
                                             <div
@@ -119,7 +119,7 @@ function SpecialFeatures() {
                                                     Prepare for the interview
                                                 </a>
                                             </div>
-                                            <div
+                                            {/* <div
                                                 id="elementor-tab-content-1582"
                                                 className="elementor-tab-content elementor-clearfix"
                                                 data-tab={2}
@@ -129,7 +129,7 @@ function SpecialFeatures() {
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                 Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
                                                 dapibus leo.
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="elementor-toggle-item">
                                             <div
@@ -155,7 +155,7 @@ function SpecialFeatures() {
                                                     Ace the interviews
                                                 </a>
                                             </div>
-                                            <div
+                                            {/* <div
                                                 id="elementor-tab-content-1583"
                                                 className="elementor-tab-content elementor-clearfix"
                                                 data-tab={3}
@@ -165,7 +165,7 @@ function SpecialFeatures() {
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                 Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
                                                 dapibus leo.
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -289,7 +289,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Community Support </span>
+                                                                <span>24/7 Community Support </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam
@@ -398,11 +398,11 @@ function SpecialFeatures() {
                                                                         data-value={25}
                                                                         data-animation-duration={3500}
                                                                     >
-                                                                        0
+                                                                        35
                                                                     </span>
-                                                                    <span className="suffix">K+</span>
+                                                                    <span className="suffix">%</span>
                                                                 </div>
-                                                                <h2 className="title">Active users</h2>
+                                                                <h2 className="title">Average Salary Hike</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -440,11 +440,11 @@ function SpecialFeatures() {
                                                                         data-value={190}
                                                                         data-animation-duration={3500}
                                                                     >
-                                                                        0
+                                                                        2500
                                                                     </span>
                                                                     <span className="suffix">+</span>
                                                                 </div>
-                                                                <h2 className="title">Career Coach </h2>
+                                                                <h2 className="title">Successful Career Transitions</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -482,11 +482,11 @@ function SpecialFeatures() {
                                                                         data-value={560}
                                                                         data-animation-duration={3500}
                                                                     >
-                                                                        0
+                                                                        50
                                                                     </span>
                                                                     <span className="suffix">+</span>
                                                                 </div>
-                                                                <h2 className="title">Company</h2>
+                                                                <h2 className="title">Hiring Partners</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -524,11 +524,11 @@ function SpecialFeatures() {
                                                                         data-value={5}
                                                                         data-animation-duration={3500}
                                                                     >
-                                                                        0
+                                                                        5
                                                                     </span>
-                                                                    <span className="suffix">K+</span>
+                                                                    {/* <span className="suffix"></span> */}
                                                                 </div>
-                                                                <h2 className="title">Actively hiring</h2>
+                                                                <h2 className="title">Carrer Coaches</h2>
                                                             </div>
                                                         </div>
                                                     </div>

@@ -198,7 +198,7 @@ function JoinNow() {
                                                 </div>
                                                 <div className="feature-list-content-box">
                                                     <h3 className="feature-list-title">
-                                                        Get Shorted for Interviews   
+                                                        Get Shortlisted for Interviews   
                                                     </h3>
                                                     <p className="feature-list-content">
                                                         Facilisi conubia tortor purus non ac odio dis orci

@@ -54,8 +54,7 @@ function Features() {
                                                                 Profile Building
                                                             </h3>
                                                             <p className="elementor-image-box-description">
-                                                                The ultimate community and training platform for
-                                                                job
+                                                                Construct a standout resume and LinkedIn profile, spurring potential employers to take notice. 
                                                             </p>
                                                         </div>
                                                     </div>
@@ -94,8 +93,7 @@ function Features() {
                                                                 Mock Interviews
                                                             </h3>
                                                             <p className="elementor-image-box-description">
-                                                                The ultimate community and training platform for
-                                                                job
+                                                                Unlock insider knowledge to navigate interviews skillfully, securing your dream job. 
                                                             </p>
                                                         </div>
                                                     </div>
@@ -134,8 +132,7 @@ function Features() {
                                                                 Interview Hacks
                                                             </h3>
                                                             <p className="elementor-image-box-description">
-                                                                The ultimate community and training platform for
-                                                                job
+                                                                Experience real interview scenarios to bolster confidence and enhance performance. 
                                                             </p>
                                                         </div>
                                                     </div>
@@ -174,8 +171,7 @@ function Features() {
                                                                 1v1 Mentorship
                                                             </h3>
                                                             <p className="elementor-image-box-description">
-                                                                The ultimate community and training platform for
-                                                                job
+                                                                Gain personalized advice and strategies from industry experts to triumph in tech interviews and career challenges. 
                                                             </p>
                                                         </div>
                                                     </div>
