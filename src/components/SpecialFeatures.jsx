@@ -395,7 +395,7 @@ function SpecialFeatures() {
                                                                     <span className="prefix" />
                                                                     <span
                                                                         className="number"
-                                                                        data-value={25}
+                                                                        data-value={35}
                                                                         data-animation-duration={3500}
                                                                     >
                                                                         35
@@ -437,14 +437,14 @@ function SpecialFeatures() {
                                                                     <span className="prefix" />
                                                                     <span
                                                                         className="number"
-                                                                        data-value={190}
+                                                                        data-value={2500}
                                                                         data-animation-duration={3500}
                                                                     >
                                                                         2500
                                                                     </span>
                                                                     <span className="suffix">+</span>
                                                                 </div>
-                                                                <h2 className="title">Successful Career Transitions</h2>
+                                                                <h2 className="title">Career Transitions</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -479,7 +479,7 @@ function SpecialFeatures() {
                                                                     <span className="prefix" />
                                                                     <span
                                                                         className="number"
-                                                                        data-value={560}
+                                                                        data-value={50}
                                                                         data-animation-duration={3500}
                                                                     >
                                                                         50

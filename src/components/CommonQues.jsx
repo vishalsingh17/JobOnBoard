@@ -49,7 +49,7 @@ function CommonQues() {
                                 data-widget_type="text-editor.default"
                             >
                                 <div className="elementor-widget-container">
-                                    <p>Common questions</p>
+                                    <p>Our Commitment</p>
                                 </div>
                             </div>
                             <div
@@ -62,7 +62,7 @@ function CommonQues() {
                                     <div className="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_61_12_6604237b66204">
                                         <div className="heading-section-title  display-inline-block">
                                             <h2 className="heading-title">
-                                                Solution to all your career woes
+                                            Elevate Your Career to the Next Level
                                             </h2>
                                         </div>
                                         <div className="heading-section-description">
