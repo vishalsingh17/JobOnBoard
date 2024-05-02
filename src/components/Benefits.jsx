@@ -176,7 +176,7 @@ function Benefits() {
                                                 <span>Upgrade Your Profile </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
-                                                Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
+                                                Upgraded profile boosts visibility, credibility, networking & job opportunities.{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -204,7 +204,7 @@ function Benefits() {
                                                 <span>Build Strong Network </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
-                                                Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
+                                                Networking enhances job prospects by fostering connections, opportunities & referrals{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -230,10 +230,10 @@ function Benefits() {
                                         </div>
                                         <div className="elementor-icon-box-content">
                                             <div className="elementor-icon-box-title">
-                                                <span>Get Your Dream Job </span>
+                                                <span>Land Your Dream Job </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
-                                                Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
+                                                With optimized profile & strong network, you can land your dream job{" "}
                                             </p>
                                         </div>
                                     </div>
