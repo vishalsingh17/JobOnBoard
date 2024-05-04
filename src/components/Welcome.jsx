@@ -136,7 +136,7 @@ function Welcome() {
                             >
                                 <div className="elementor-widget-container">
                                     <h2 className="elementor-heading-title elementor-size-default">
-                                        2360+ Active Members
+                                        2500+ Active Members
                                     </h2>
                                 </div>
                             </div>
@@ -159,17 +159,16 @@ function Welcome() {
                                     <img
                                         width={655}
                                         height={708}
-                                        src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/bgElement.png"
+                                        src="./WelcomeImg.jpg"
                                         className="attachment-large size-large wp-image-5"
                                         alt=""
                                         decoding="async"
                                         loading="lazy"
-                                        srcSet="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/bgElement.png 655w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/bgElement-278x300.png 278w"
                                         sizes="(max-width: 655px) 100vw, 655px"
                                     />
                                 </div>
                             </div>
-                            <div
+                            {/* <div
                                 className="elementor-element elementor-element-4d29022c elementor-widget elementor-widget-image"
                                 data-id="4d29022c"
                                 data-element_type="widget"
@@ -188,8 +187,8 @@ function Welcome() {
                                         sizes="(max-width: 597px) 100vw, 597px"
                                     />
                                 </div>
-                            </div>
-                            <div
+                            </div> */}
+                            {/* <div
                                 className="elementor-element elementor-element-3b9bd8fb elementor-widget__width-initial elementor-absolute elementor-invisible elementor-widget elementor-widget-image"
                                 data-id="3b9bd8fb"
                                 data-element_type="widget"
@@ -209,8 +208,8 @@ function Welcome() {
                                         sizes="(max-width: 208px) 100vw, 208px"
                                     />
                                 </div>
-                            </div>
-                            <div
+                            </div> */}
+                            {/* <div
                                 className="elementor-element elementor-element-3534614c elementor-widget__width-initial elementor-absolute elementor-hidden-mobile elementor-invisible elementor-widget elementor-widget-image"
                                 data-id="3534614c"
                                 data-element_type="widget"
@@ -230,7 +229,7 @@ function Welcome() {
                                         sizes="(max-width: 411px) 100vw, 411px"
                                     />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

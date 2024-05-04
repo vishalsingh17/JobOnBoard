@@ -168,7 +168,14 @@ function Benefits() {
                                     <div className="elementor-icon-box-wrapper">
                                         <div className="elementor-icon-box-icon">
                                             <span className="elementor-icon elementor-animation-">
-                                                <i aria-hidden="true" className="icon icon-shield11" />{" "}
+                                                <i aria-hidden="true" >
+                                                    <img 
+                                                        src="./UpgradeYourProfile.png" 
+                                                        alt="Icon" 
+                                                        className="elementor-png-icon" 
+                                                        style={{ width: '50px', height: '40px' }}
+                                                    />
+                                                </i>
                                             </span>
                                         </div>
                                         <div className="elementor-icon-box-content">
@@ -193,10 +200,14 @@ function Benefits() {
                                     <div className="elementor-icon-box-wrapper">
                                         <div className="elementor-icon-box-icon">
                                             <span className="elementor-icon elementor-animation-">
-                                                <i
-                                                    aria-hidden="true"
-                                                    className="icon icon-smartphone2"
-                                                />{" "}
+                                            <i aria-hidden="true" >
+                                                    <img 
+                                                        src="./BuildStrongNetwork.png" 
+                                                        alt="Icon" 
+                                                        className="elementor-png-icon" 
+                                                        style={{ width: '50px', height: '40px' }}
+                                                    />
+                                                </i>
                                             </span>
                                         </div>
                                         <div className="elementor-icon-box-content">
@@ -222,10 +233,14 @@ function Benefits() {
                                     <div className="elementor-icon-box-wrapper">
                                         <div className="elementor-icon-box-icon">
                                             <span className="elementor-icon elementor-animation-">
-                                                <i
-                                                    aria-hidden="true"
-                                                    className="icon icon-credit-card"
-                                                />{" "}
+                                            <i aria-hidden="true" >
+                                                    <img 
+                                                        src="./LandYourDreamJOb.png" 
+                                                        alt="Icon" 
+                                                        className="elementor-png-icon" 
+                                                        style={{ width: '50px', height: '40px' }}
+                                                    />
+                                                </i>
                                             </span>
                                         </div>
                                         <div className="elementor-icon-box-content">

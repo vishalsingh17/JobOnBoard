@@ -385,10 +385,11 @@ function SpecialFeatures() {
                                                     <div className="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_61_4_6604237b54532">
                                                         <div className="fun-fact-inner">
                                                             <div className="icon elementor-animation-">
-                                                                <i
+                                                            <img src="./SalaryHike.png" alt="Icon" style={{ width: '65px', height: '60px' }}/>
+                                                                {/* <i
                                                                     aria-hidden="true"
                                                                     className="icon icon-users2"
-                                                                />
+                                                                /> */}
                                                             </div>
                                                             <div className="content">
                                                                 <div className="number-wrapper">
@@ -402,7 +403,7 @@ function SpecialFeatures() {
                                                                     </span>
                                                                     <span className="suffix">%</span>
                                                                 </div>
-                                                                <h2 className="title">Average Salary Hike</h2>
+                                                                <h2 className="title">Mean Salary Hike</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -427,10 +428,11 @@ function SpecialFeatures() {
                                                     <div className="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_61_5_6604237b55485">
                                                         <div className="fun-fact-inner">
                                                             <div className="icon elementor-animation-">
-                                                                <i
+                                                            <img src="./CareerTransitions.png" alt="Icon" style={{ width: '68px', height: '63px' }}/>
+                                                                {/* <i
                                                                     aria-hidden="true"
                                                                     className="jki jki-briefcase-light"
-                                                                />
+                                                                /> */}
                                                             </div>
                                                             <div className="content">
                                                                 <div className="number-wrapper">
@@ -469,10 +471,11 @@ function SpecialFeatures() {
                                                     <div className="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_61_6_6604237b5647c">
                                                         <div className="fun-fact-inner">
                                                             <div className="icon elementor-animation-">
-                                                                <i
+                                                            <img src="./HiringPartners.png" alt="Icon" style={{ width: '68px', height: '74px' }}/>
+                                                                {/* <i
                                                                     aria-hidden="true"
                                                                     className="icon icon-apartment1"
-                                                                />
+                                                                /> */}
                                                             </div>
                                                             <div className="content">
                                                                 <div className="number-wrapper">
@@ -511,10 +514,11 @@ function SpecialFeatures() {
                                                     <div className="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_61_7_6604237b5744d">
                                                         <div className="fun-fact-inner">
                                                             <div className="icon elementor-animation-">
-                                                                <i
+                                                                <img src="./CareerCoaches.png" alt="Icon" style={{ width: '68px', height: '72px' }}/>
+                                                                {/* <i
                                                                     aria-hidden="true"
                                                                     className="jki jki-desk-chair-light"
-                                                                />
+                                                                /> */}
                                                             </div>
                                                             <div className="content">
                                                                 <div className="number-wrapper">
@@ -528,7 +532,7 @@ function SpecialFeatures() {
                                                                     </span>
                                                                     {/* <span className="suffix"></span> */}
                                                                 </div>
-                                                                <h2 className="title">Carrer Coaches</h2>
+                                                                <h2 className="title">Career Coaches</h2>
                                                             </div>
                                                         </div>
                                                     </div>

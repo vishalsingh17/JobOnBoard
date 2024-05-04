@@ -40,9 +40,9 @@ function Features() {
                                                     <div className="elementor-image-box-wrapper">
                                                         <figure className="elementor-image-box-img">
                                                             <img
-                                                                width={128}
-                                                                height={125}
-                                                                src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/check_1-69482.png"
+                                                                width={180}
+                                                                height={150}
+                                                                src="./ProfileBuilding.svg"
                                                                 className="attachment-full size-full wp-image-9"
                                                                 alt=""
                                                                 decoding="async"
@@ -81,7 +81,7 @@ function Features() {
                                                             <img
                                                                 width={128}
                                                                 height={125}
-                                                                src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/clipboard-69485.png"
+                                                                src="./MockInterviews.svg"
                                                                 className="attachment-full size-full wp-image-11"
                                                                 alt=""
                                                                 decoding="async"
@@ -120,7 +120,7 @@ function Features() {
                                                             <img
                                                                 width={131}
                                                                 height={125}
-                                                                src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/clip-69484.png"
+                                                                src="./InterviewHacks.svg"
                                                                 className="attachment-full size-full wp-image-10"
                                                                 alt=""
                                                                 decoding="async"
@@ -159,7 +159,7 @@ function Features() {
                                                             <img
                                                                 width={134}
                                                                 height={125}
-                                                                src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/book-69478.png"
+                                                                src="1v1Mentorship.svg"
                                                                 className="attachment-full size-full wp-image-6"
                                                                 alt=""
                                                                 decoding="async"
