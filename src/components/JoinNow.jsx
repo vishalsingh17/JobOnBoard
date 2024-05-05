@@ -113,7 +113,7 @@ function JoinNow() {
                             >
                                 <div className="elementor-widget-container">
                                     <h2 className="elementor-heading-title elementor-size-default">
-                                        Maximize interview calls for every job seeker{" "}
+                                        Maximized interview calls for every job seeker{" "}
                                     </h2>
                                 </div>
                             </div>
