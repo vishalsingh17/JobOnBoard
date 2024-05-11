@@ -3,7 +3,7 @@ import React from 'react'
 function JoinNow() {
     return (
         <div>
-            <section
+            {/* <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-64ff8669 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="64ff8669"
                 data-element_type="section"
@@ -213,7 +213,7 @@ function JoinNow() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }
