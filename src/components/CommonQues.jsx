@@ -88,7 +88,7 @@ function CommonQues() {
                                                             <div className="jkit-icon-box-wrapper hover-from-left">
                                                                 <div className="icon-box icon-box-header elementor-animation-">
                                                                     <div className={`icon style-color ${card.icon}`}>
-                                                                        <i aria-hidden="true" className={`icon ${card.icon}`} />
+                                                                        {/* <i aria-hidden="true" className={`icon ${card.icon}`} /> */}
                                                                     </div>
                                                                 </div>
                                                                 <div className="icon-box icon-box-body">
@@ -98,7 +98,7 @@ function CommonQues() {
                                                                         <div className="btn-wrapper icon-position-after">
                                                                             <a href={card.link} className="icon-box-link">
                                                                                 Learn More
-                                                                                <i aria-hidden="true" className="icon icon-arrow-right" />
+                                                                                {/* <i aria-hidden="true" className="icon icon-arrow-right" /> */}
                                                                             </a>
                                                                         </div>
                                                                     </div>

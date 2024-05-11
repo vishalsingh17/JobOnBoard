@@ -72,7 +72,7 @@ function JoinNow() {
                                             <span
                                                 className="elementor-counter-number"
                                                 data-duration={2000}
-                                                data-to-value={56}
+                                                data-to-value={2.5}
                                                 data-from-value={0}
                                                 data-delimiter=","
                                             >

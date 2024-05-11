@@ -170,7 +170,7 @@ function Benefits() {
                                             <span className="elementor-icon elementor-animation-">
                                                 <i aria-hidden="true" >
                                                     <img 
-                                                        src="./UpgradeYourProfile.png" 
+                                                        src="./UpgradeYourProfile.webp" 
                                                         alt="Icon" 
                                                         className="elementor-png-icon" 
                                                         style={{ width: '50px', height: '40px' }}
@@ -202,7 +202,7 @@ function Benefits() {
                                             <span className="elementor-icon elementor-animation-">
                                             <i aria-hidden="true" >
                                                     <img 
-                                                        src="./BuildStrongNetwork.png" 
+                                                        src="./BuildStrongNetwork.webp" 
                                                         alt="Icon" 
                                                         className="elementor-png-icon" 
                                                         style={{ width: '50px', height: '40px' }}
@@ -235,7 +235,7 @@ function Benefits() {
                                             <span className="elementor-icon elementor-animation-">
                                             <i aria-hidden="true" >
                                                     <img 
-                                                        src="./LandYourDreamJob.png" 
+                                                        src="./LandYourDreamJob.webp" 
                                                         alt="Icon" 
                                                         className="elementor-png-icon" 
                                                         style={{ width: '50px', height: '40px' }}
