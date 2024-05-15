@@ -40,9 +40,11 @@ function Welcome() {
                                 <div className="elementor-widget-container">
                                     <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_1_6604237b1e2ee">
                                         <div className="heading-section-title  display-inline-block">
-                                            <h6 className="heading-title" style={{ whiteSpace: 'nowrap' }}>
-                                                Not sure how to start your interview preparation?
-                                            </h6>
+                                        <h6 className="heading-title" style={{ whiteSpace: 'nowrap' }}>
+                                            <span>Not sure how to start</span><br/>
+                                            your interview preparation?<br/>
+                                            We've got you covered.
+                                        </h6>
                                         </div>
                                         <div className="heading-section-description">
                                             <p>
@@ -175,7 +177,7 @@ function Welcome() {
                                         animationData={WelcomeAnimation}
                                         loop={true}
                                         autoplay={true}
-                                        style={{ width: 620, height: 708 }}
+                                        style={{ width: 615, height: 708 }}
                                     />
                                 </div>
                             </div>
