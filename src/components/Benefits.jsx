@@ -82,30 +82,11 @@ function Benefits() {
                                                 data-element_type="widget"
                                                 data-widget_type="icon-box.default"
                                             >
-                                                <div className="elementor-widget-container">
+                                                <div>
                                                     <link
                                                         rel="stylesheet"
                                                         href="https://advanture.icu/jobmart/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css"
                                                     />
-                                                    <div className="elementor-icon-box-wrapper">
-                                                        {/* <div className="elementor-icon-box-icon">
-                                                            <span className="elementor-icon elementor-animation-">
-                                                                <i
-                                                                    aria-hidden="true"
-                                                                    className="icon icon-trophy1"
-                                                                />
-                                                            </span>
-                                                        </div> */}
-                                                        {/* <div className="elementor-icon-box-content">
-                                                            <div className="elementor-icon-box-title">
-                                                                <span>The Best Hiring Agency </span>
-                                                            </div>
-                                                            <p className="elementor-icon-box-description">
-                                                                Ridiculus cras molestie lectus nullam
-                                                                ullamcorper mus
-                                                            </p>
-                                                        </div> */}
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
