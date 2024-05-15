@@ -82,7 +82,7 @@ function Benefits() {
                                                 data-element_type="widget"
                                                 data-widget_type="icon-box.default"
                                             >
-                                                <div className="elementor-widget-container">
+                                                <div>
                                                     <link
                                                         rel="stylesheet"
                                                         href="https://advanture.icu/jobmart/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css"
