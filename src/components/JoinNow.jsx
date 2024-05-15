@@ -3,7 +3,7 @@ import React from 'react'
 function JoinNow() {
     return (
         <div>
-            <section
+            {/* <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-64ff8669 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                 data-id="64ff8669"
                 data-element_type="section"
@@ -72,7 +72,7 @@ function JoinNow() {
                                             <span
                                                 className="elementor-counter-number"
                                                 data-duration={2000}
-                                                data-to-value={56}
+                                                data-to-value={2.5}
                                                 data-from-value={0}
                                                 data-delimiter=","
                                             >
@@ -113,7 +113,7 @@ function JoinNow() {
                             >
                                 <div className="elementor-widget-container">
                                     <h2 className="elementor-heading-title elementor-size-default">
-                                        Maximum opportunity for every job seeker{" "}
+                                        Maximized interview calls for every job seeker{" "}
                                     </h2>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@ function JoinNow() {
                                                 </div>
                                                 <div className="feature-list-content-box">
                                                     <h3 className="feature-list-title">
-                                                        Time Management
+                                                        Step by Step Guidance
                                                     </h3>
                                                     <p className="feature-list-content">
                                                         Facilisi conubia tortor purus non ac odio dis orci
@@ -176,7 +176,7 @@ function JoinNow() {
                                                 </div>
                                                 <div className="feature-list-content-box">
                                                     <h3 className="feature-list-title">
-                                                        Business Management
+                                                        Study & Practice Plan
                                                     </h3>
                                                     <p className="feature-list-content">
                                                         Facilisi conubia tortor purus non ac odio dis orci
@@ -198,7 +198,7 @@ function JoinNow() {
                                                 </div>
                                                 <div className="feature-list-content-box">
                                                     <h3 className="feature-list-title">
-                                                        High success rate
+                                                        Get Shortlisted for Interviews   
                                                     </h3>
                                                     <p className="feature-list-content">
                                                         Facilisi conubia tortor purus non ac odio dis orci
@@ -213,7 +213,7 @@ function JoinNow() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

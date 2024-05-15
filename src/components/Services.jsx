@@ -7,6 +7,7 @@ import CommonQues from './CommonQues';
 import FrequentlyAsked from './FrequentlyAsked';
 import Footer from './Footer';
 import Tawkchat from './Tawkchat';
+import Benefits from './Benefits';
 
 function Services() {
     return (
@@ -332,9 +333,9 @@ function Services() {
                         </div>
 
                     </section>
-
-                    <CommonQues />
+                    <Benefits />
                     <SpecialFeatures />
+                    <CommonQues />
                     <JoinNow/>
                     <FrequentlyAsked />
                     <Tawkchat/>

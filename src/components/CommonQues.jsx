@@ -4,20 +4,31 @@ function CommonQues() {
     const CardData1 = [
         {
             id: 1,
-            title: 'Career Coaching',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-            link: '#',
-            icon: 'icon-trophy1'
+            title: 'Interview Ready Profile',
+            description: 'Craft a winning resume, elevate your profile on LinkedIn, Nauraki to stand out.',
+            link: './services',
+            icon: 'icon-trophy1',
+            webpImage: './InterviewReadyProfile.webp'
         },
         {
             id: 2,
-            title: 'Job Preparation',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-            link: '#',
-            icon: 'icon-user1'
+            title: 'Interview Preparation',
+            description: 'Experience real interviews with tech experts to sharpen your skills and boost confidence.',
+            link: './services',
+            icon: 'icon-user1',
+            webpImage: './InterviewPreparation.webp'
+        },
+        {
+            id: 3,
+            title: 'Ace the Interview',
+            description: 'We guarantee interview calls through our extensive network and personalized coaching, ensuring your success.',
+            link: './services',
+            icon: 'icon-user1',
+            webpImage: './AceTheInterview.webp'
         },
         // Add more card data as needed
     ];
+    
     return (
         <div>
             <section
@@ -41,7 +52,7 @@ function CommonQues() {
                                 data-widget_type="text-editor.default"
                             >
                                 <div className="elementor-widget-container">
-                                    <p>Common questions</p>
+                                    <p>Our Commitment</p>
                                 </div>
                             </div>
                             <div
@@ -54,7 +65,7 @@ function CommonQues() {
                                     <div className="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_61_12_6604237b66204">
                                         <div className="heading-section-title  display-inline-block">
                                             <h2 className="heading-title">
-                                                Solution to all your career woes
+                                            Elevate Your Career to the Next Level
                                             </h2>
                                         </div>
                                         <div className="heading-section-description">
@@ -71,37 +82,38 @@ function CommonQues() {
                                 data-element_type="section"
                             >
                                 <div className="elementor-container elementor-column-gap-default">
-                                    {CardData1.map(card => (
-                                        <div key={card.id} className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6478bc9">
-                                            <div className="elementor-widget-wrap elementor-element-populated">
-                                                <div className="elementor-element elementor-element-7f059d2 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box" data-id="7f059d2" data-element_type="widget" data-widget_type="jkit_icon_box.default">
-                                                    <div className="elementor-widget-container">
-                                                        <div className="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_61_13_6604237b6919e">
-                                                            <div className="jkit-icon-box-wrapper hover-from-left">
-                                                                <div className="icon-box icon-box-header elementor-animation-">
-                                                                    <div className={`icon style-color ${card.icon}`}>
-                                                                        <i aria-hidden="true" className={`icon ${card.icon}`} />
-                                                                    </div>
-                                                                </div>
-                                                                <div className="icon-box icon-box-body">
-                                                                    <h2 className="title">{card.title}</h2>
-                                                                    <p className="icon-box-description">{card.description}</p>
-                                                                    <div className="icon-box-button ">
-                                                                        <div className="btn-wrapper icon-position-after">
-                                                                            <a href={card.link} className="icon-box-link">
-                                                                                Learn More
-                                                                                <i aria-hidden="true" className="icon icon-arrow-right" />
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                {CardData1.map(card => (
+        <div key={card.id} className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6478bc9">
+            <div className="elementor-widget-wrap elementor-element-populated">
+                <div className="elementor-element elementor-element-7f059d2 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box" data-id="7f059d2" data-element_type="widget" data-widget_type="jkit_icon_box.default">
+                    <div className="elementor-widget-container">
+                        <div className="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_61_13_6604237b6919e">
+                            <div className="jkit-icon-box-wrapper hover-from-left">
+                                <div className="icon-box icon-box-header elementor-animation-">
+                                    {/* Use picture element or img tag with srcSet to specify WebP image */}
+                                    <picture>
+                                        <source srcSet={card.webpImage} type="image/webp" />
+                                        <img src={card.image} alt="Card" style={{ width: '60px', height: 'auto' }} />
+                                    </picture>
+                                </div>
+                                <div className="icon-box icon-box-body">
+                                    <h2 className="title">{card.title}</h2>
+                                    <p className="icon-box-description">{card.description}</p>
+                                    <div className="icon-box-button ">
+                                        <div className="btn-wrapper icon-position-after">
+                                            <a href={card.link} className="icon-box-link">
+                                                Learn More
+                                            </a>
                                         </div>
-                                    ))}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        ))}
                                     <div
                                         className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0654bc8"
                                         data-id="0654bc8"
@@ -124,11 +136,11 @@ function CommonQues() {
                                                             </div>
                                                             <div className="icon-box icon-box-body">
                                                                 <h2 className="title">
-                                                                    Ultimate features you get
+                                                                    Negotiate the Best Offer
                                                                 </h2>
                                                                 <div className="icon-box-button ">
                                                                     <div className="btn-wrapper icon-position-after">
-                                                                        <a href="#" className="icon-box-link">
+                                                                        <a href="./services" className="icon-box-link">
                                                                             Learn More
                                                                         </a>
                                                                     </div>

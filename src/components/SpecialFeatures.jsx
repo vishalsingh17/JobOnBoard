@@ -38,14 +38,14 @@ function SpecialFeatures() {
                                     <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_3_6604237b4e196">
                                         <div className="heading-section-title  display-inline-block">
                                             <h2 className="heading-title">
-                                                Bridge for industrial and corporate development.
+                                                Features To Accelerate Your Career Journey 
                                             </h2>
                                         </div>
                                         <div className="heading-section-description">
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit
-                                                voluptatem accusantium doloremque laudantium, totam rem
-                                                aperiam, eaque ipsa quae&nbsp;
+                                                Our job hacks are specifically designed to give you an edge 
+                                                in the competitive job market, enhancing your job 
+                                                search and interview skills. &nbsp;
                                             </p>
                                         </div>
                                     </div>
@@ -80,10 +80,10 @@ function SpecialFeatures() {
                                                     </span>
                                                 </span>
                                                 <a className="elementor-toggle-title" tabIndex={0}>
-                                                    Best Hiring Agency
+                                                    Prepare interview ready profile
                                                 </a>
                                             </div>
-                                            <div
+                                            {/* <div
                                                 id="elementor-tab-content-1581"
                                                 className="elementor-tab-content elementor-clearfix"
                                                 data-tab={1}
@@ -93,7 +93,7 @@ function SpecialFeatures() {
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                 Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
                                                 dapibus leo.
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="elementor-toggle-item">
                                             <div
@@ -116,10 +116,10 @@ function SpecialFeatures() {
                                                     </span>
                                                 </span>
                                                 <a className="elementor-toggle-title" tabIndex={0}>
-                                                    Quality Opportunities
+                                                    Prepare for the interview
                                                 </a>
                                             </div>
-                                            <div
+                                            {/* <div
                                                 id="elementor-tab-content-1582"
                                                 className="elementor-tab-content elementor-clearfix"
                                                 data-tab={2}
@@ -129,7 +129,7 @@ function SpecialFeatures() {
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                 Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
                                                 dapibus leo.
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="elementor-toggle-item">
                                             <div
@@ -152,10 +152,10 @@ function SpecialFeatures() {
                                                     </span>
                                                 </span>
                                                 <a className="elementor-toggle-title" tabIndex={0}>
-                                                    Career Coaching
+                                                    Ace the interviews
                                                 </a>
                                             </div>
-                                            <div
+                                            {/* <div
                                                 id="elementor-tab-content-1583"
                                                 className="elementor-tab-content elementor-clearfix"
                                                 data-tab={3}
@@ -165,7 +165,7 @@ function SpecialFeatures() {
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                 Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
                                                 dapibus leo.
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -209,7 +209,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Fast Recognition </span>
+                                                                <span>Profile Optimization </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam
@@ -245,7 +245,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Job For Everyone </span>
+                                                                <span>Career Growth </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam
@@ -289,7 +289,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Best Treatment to Worker </span>
+                                                                <span>24/7 Community Support </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam
@@ -325,7 +325,7 @@ function SpecialFeatures() {
                                                         </div>
                                                         <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
-                                                                <span>Big Company </span>
+                                                                <span>Job For Everyone </span>
                                                             </div>
                                                             <p className="elementor-icon-box-description">
                                                                 Ridiculus cras molestie lectus nullam
@@ -385,24 +385,25 @@ function SpecialFeatures() {
                                                     <div className="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_61_4_6604237b54532">
                                                         <div className="fun-fact-inner">
                                                             <div className="icon elementor-animation-">
-                                                                <i
+                                                            <img src="./SalaryHike.png" alt="Icon" style={{ width: '65px', height: '60px' }}/>
+                                                                {/* <i
                                                                     aria-hidden="true"
                                                                     className="icon icon-users2"
-                                                                />
+                                                                /> */}
                                                             </div>
                                                             <div className="content">
                                                                 <div className="number-wrapper">
                                                                     <span className="prefix" />
                                                                     <span
                                                                         className="number"
-                                                                        data-value={25}
+                                                                        data-value={35}
                                                                         data-animation-duration={3500}
                                                                     >
-                                                                        0
+                                                                        35
                                                                     </span>
-                                                                    <span className="suffix">K+</span>
+                                                                    <span className="suffix">%</span>
                                                                 </div>
-                                                                <h2 className="title">Active users</h2>
+                                                                <h2 className="title">Mean Salary Hike</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -427,24 +428,25 @@ function SpecialFeatures() {
                                                     <div className="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_61_5_6604237b55485">
                                                         <div className="fun-fact-inner">
                                                             <div className="icon elementor-animation-">
-                                                                <i
+                                                            <img src="./CareerTransitions.png" alt="Icon" style={{ width: '68px', height: '63px' }}/>
+                                                                {/* <i
                                                                     aria-hidden="true"
                                                                     className="jki jki-briefcase-light"
-                                                                />
+                                                                /> */}
                                                             </div>
                                                             <div className="content">
                                                                 <div className="number-wrapper">
                                                                     <span className="prefix" />
                                                                     <span
                                                                         className="number"
-                                                                        data-value={190}
+                                                                        data-value={2500}
                                                                         data-animation-duration={3500}
                                                                     >
-                                                                        0
+                                                                        2500
                                                                     </span>
                                                                     <span className="suffix">+</span>
                                                                 </div>
-                                                                <h2 className="title">Career Coach </h2>
+                                                                <h2 className="title">Career Transitions</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -469,24 +471,25 @@ function SpecialFeatures() {
                                                     <div className="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_61_6_6604237b5647c">
                                                         <div className="fun-fact-inner">
                                                             <div className="icon elementor-animation-">
-                                                                <i
+                                                            <img src="./HiringPartners.png" alt="Icon" style={{ width: '68px', height: '74px' }}/>
+                                                                {/* <i
                                                                     aria-hidden="true"
                                                                     className="icon icon-apartment1"
-                                                                />
+                                                                /> */}
                                                             </div>
                                                             <div className="content">
                                                                 <div className="number-wrapper">
                                                                     <span className="prefix" />
                                                                     <span
                                                                         className="number"
-                                                                        data-value={560}
+                                                                        data-value={50}
                                                                         data-animation-duration={3500}
                                                                     >
-                                                                        0
+                                                                        50
                                                                     </span>
                                                                     <span className="suffix">+</span>
                                                                 </div>
-                                                                <h2 className="title">Company</h2>
+                                                                <h2 className="title">Hiring Partners</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -511,10 +514,11 @@ function SpecialFeatures() {
                                                     <div className="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_61_7_6604237b5744d">
                                                         <div className="fun-fact-inner">
                                                             <div className="icon elementor-animation-">
-                                                                <i
+                                                                <img src="./CareerCoaches.png" alt="Icon" style={{ width: '68px', height: '72px' }}/>
+                                                                {/* <i
                                                                     aria-hidden="true"
                                                                     className="jki jki-desk-chair-light"
-                                                                />
+                                                                /> */}
                                                             </div>
                                                             <div className="content">
                                                                 <div className="number-wrapper">
@@ -524,11 +528,11 @@ function SpecialFeatures() {
                                                                         data-value={5}
                                                                         data-animation-duration={3500}
                                                                     >
-                                                                        0
+                                                                        5
                                                                     </span>
-                                                                    <span className="suffix">K+</span>
+                                                                    {/* <span className="suffix"></span> */}
                                                                 </div>
-                                                                <h2 className="title">Actively hiring</h2>
+                                                                <h2 className="title">Career Coaches</h2>
                                                             </div>
                                                         </div>
                                                     </div>

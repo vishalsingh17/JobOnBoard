@@ -37,7 +37,7 @@ function Benefits() {
                                                 data-element_type="widget"
                                                 data-widget_type="image.default"
                                             >
-                                                <div className="elementor-widget-container">
+                                                {/* <div className="elementor-widget-container">
                                                     <img
                                                         width={800}
                                                         height={540}
@@ -49,7 +49,7 @@ function Benefits() {
                                                         srcSet="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img04-1024x691.jpg 1024w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img04-300x203.jpg 300w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img04-768x518.jpg 768w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img04-1536x1037.jpg 1536w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img04-800x540.jpg 800w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img04.jpg 1600w"
                                                         sizes="(max-width: 800px) 100vw, 800px"
                                                     />
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -65,7 +65,7 @@ function Benefits() {
                                                 data-element_type="widget"
                                                 data-widget_type="image.default"
                                             >
-                                                <div className="elementor-widget-container">
+                                                {/* <div className="elementor-widget-container">
                                                     <img
                                                         width={768}
                                                         height={518}
@@ -77,7 +77,7 @@ function Benefits() {
                                                         srcSet="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img03-768x518.jpg 768w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img03-300x203.jpg 300w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img03-1024x691.jpg 1024w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img03-1536x1037.jpg 1536w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img03-800x540.jpg 800w, https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/neutral-Img03.jpg 1600w"
                                                         sizes="(max-width: 768px) 100vw, 768px"
                                                     />
-                                                </div>
+                                                </div> */}
                                             </div>
                                             <div
                                                 className="elementor-element elementor-element-684dfee1 elementor-position-top elementor-view-default elementor-mobile-position-top elementor-widget elementor-widget-icon-box"
@@ -91,15 +91,15 @@ function Benefits() {
                                                         href="https://advanture.icu/jobmart/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css"
                                                     />
                                                     <div className="elementor-icon-box-wrapper">
-                                                        <div className="elementor-icon-box-icon">
+                                                        {/* <div className="elementor-icon-box-icon">
                                                             <span className="elementor-icon elementor-animation-">
                                                                 <i
                                                                     aria-hidden="true"
                                                                     className="icon icon-trophy1"
                                                                 />
                                                             </span>
-                                                        </div>
-                                                        <div className="elementor-icon-box-content">
+                                                        </div> */}
+                                                        {/* <div className="elementor-icon-box-content">
                                                             <div className="elementor-icon-box-title">
                                                                 <span>The Best Hiring Agency </span>
                                                             </div>
@@ -107,7 +107,7 @@ function Benefits() {
                                                                 Ridiculus cras molestie lectus nullam
                                                                 ullamcorper mus
                                                             </p>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -142,7 +142,7 @@ function Benefits() {
                             >
                                 <div className="elementor-widget-container">
                                     <h2 className="elementor-heading-title elementor-size-default">
-                                        Guaranteed Interview Calls.
+                                        100% Guaranteed Interview Calls for You.
                                     </h2>
                                 </div>
                             </div>
@@ -154,9 +154,7 @@ function Benefits() {
                             >
                                 <div className="elementor-widget-container">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                        elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                                        leo.
+                                        With Job Onboard, rest assured of receiving interview calls, thanks to our targeted profile building and exhaustive preparation services, ensuring your readiness for any tech interview. 
                                     </p>
                                 </div>
                             </div>
@@ -170,7 +168,14 @@ function Benefits() {
                                     <div className="elementor-icon-box-wrapper">
                                         <div className="elementor-icon-box-icon">
                                             <span className="elementor-icon elementor-animation-">
-                                                <i aria-hidden="true" className="icon icon-shield11" />{" "}
+                                                <i aria-hidden="true" >
+                                                    <img 
+                                                        src="./UpgradeYourProfile.webp" 
+                                                        alt="Icon" 
+                                                        className="elementor-png-icon" 
+                                                        style={{ width: '50px', height: '40px' }}
+                                                    />
+                                                </i>
                                             </span>
                                         </div>
                                         <div className="elementor-icon-box-content">
@@ -178,7 +183,7 @@ function Benefits() {
                                                 <span>Upgrade Your Profile </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
-                                                Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
+                                                Upgraded profile boosts visibility, credibility, networking & job opportunities.{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -195,18 +200,22 @@ function Benefits() {
                                     <div className="elementor-icon-box-wrapper">
                                         <div className="elementor-icon-box-icon">
                                             <span className="elementor-icon elementor-animation-">
-                                                <i
-                                                    aria-hidden="true"
-                                                    className="icon icon-smartphone2"
-                                                />{" "}
+                                            <i aria-hidden="true" >
+                                                    <img 
+                                                        src="./BuildStrongNetwork.webp" 
+                                                        alt="Icon" 
+                                                        className="elementor-png-icon" 
+                                                        style={{ width: '50px', height: '40px' }}
+                                                    />
+                                                </i>
                                             </span>
                                         </div>
                                         <div className="elementor-icon-box-content">
                                             <div className="elementor-icon-box-title">
-                                                <span>Get Your Dream Job </span>
+                                                <span>Build Strong Network </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
-                                                Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
+                                                Networking enhances job prospects by fostering connections, opportunities & referrals{" "}
                                             </p>
                                         </div>
                                     </div>
@@ -224,18 +233,22 @@ function Benefits() {
                                     <div className="elementor-icon-box-wrapper">
                                         <div className="elementor-icon-box-icon">
                                             <span className="elementor-icon elementor-animation-">
-                                                <i
-                                                    aria-hidden="true"
-                                                    className="icon icon-credit-card"
-                                                />{" "}
+                                            <i aria-hidden="true" >
+                                                    <img 
+                                                        src="./LandYourDreamJob.webp" 
+                                                        alt="Icon" 
+                                                        className="elementor-png-icon" 
+                                                        style={{ width: '50px', height: '40px' }}
+                                                    />
+                                                </i>
                                             </span>
                                         </div>
                                         <div className="elementor-icon-box-content">
                                             <div className="elementor-icon-box-title">
-                                                <span>Build Strong Network </span>
+                                                <span>Land Your Dream Job </span>
                                             </div>
                                             <p className="elementor-icon-box-description">
-                                                Ridiculus cras molestie lectus nullam ullamcorper mus{" "}
+                                                With optimized profile & strong network, you can land your dream job{" "}
                                             </p>
                                         </div>
                                     </div>

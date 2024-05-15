@@ -40,9 +40,9 @@ function Features() {
                                                     <div className="elementor-image-box-wrapper">
                                                         <figure className="elementor-image-box-img">
                                                             <img
-                                                                width={128}
-                                                                height={125}
-                                                                src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/check_1-69482.png"
+                                                                width={180}
+                                                                height={150}
+                                                                src="./ProfileBuilding.svg"
                                                                 className="attachment-full size-full wp-image-9"
                                                                 alt=""
                                                                 decoding="async"
@@ -51,11 +51,10 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Career Growth
+                                                                Profile Building
                                                             </h3>
                                                             <p className="elementor-image-box-description">
-                                                                The ultimate community and training platform for
-                                                                job
+                                                                Construct a standout resume and LinkedIn profile, spurring potential employers to take notice. 
                                                             </p>
                                                         </div>
                                                     </div>
@@ -82,7 +81,7 @@ function Features() {
                                                             <img
                                                                 width={128}
                                                                 height={125}
-                                                                src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/clipboard-69485.png"
+                                                                src="./MockInterviews.svg"
                                                                 className="attachment-full size-full wp-image-11"
                                                                 alt=""
                                                                 decoding="async"
@@ -91,11 +90,10 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Personalized Path
+                                                                Mock Interviews
                                                             </h3>
                                                             <p className="elementor-image-box-description">
-                                                                The ultimate community and training platform for
-                                                                job
+                                                                Unlock insider knowledge to navigate interviews skillfully, securing your dream job. 
                                                             </p>
                                                         </div>
                                                     </div>
@@ -122,7 +120,7 @@ function Features() {
                                                             <img
                                                                 width={131}
                                                                 height={125}
-                                                                src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/clip-69484.png"
+                                                                src="./InterviewHacks.svg"
                                                                 className="attachment-full size-full wp-image-10"
                                                                 alt=""
                                                                 decoding="async"
@@ -131,11 +129,10 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Job Hacks
+                                                                Interview Hacks
                                                             </h3>
                                                             <p className="elementor-image-box-description">
-                                                                The ultimate community and training platform for
-                                                                job
+                                                                Experience real interview scenarios to bolster confidence and enhance performance. 
                                                             </p>
                                                         </div>
                                                     </div>
@@ -162,7 +159,7 @@ function Features() {
                                                             <img
                                                                 width={134}
                                                                 height={125}
-                                                                src="https://advanture.icu/jobmart/wp-content/uploads/sites/8/2023/02/book-69478.png"
+                                                                src="1v1Mentorship.svg"
                                                                 className="attachment-full size-full wp-image-6"
                                                                 alt=""
                                                                 decoding="async"
@@ -171,11 +168,10 @@ function Features() {
                                                         </figure>
                                                         <div className="elementor-image-box-content">
                                                             <h3 className="elementor-image-box-title">
-                                                                Active Hiring
+                                                                1v1 Mentorship
                                                             </h3>
                                                             <p className="elementor-image-box-description">
-                                                                The ultimate community and training platform for
-                                                                job
+                                                                Gain personalized advice and strategies from industry experts to triumph in tech interviews and career challenges. 
                                                             </p>
                                                         </div>
                                                     </div>
