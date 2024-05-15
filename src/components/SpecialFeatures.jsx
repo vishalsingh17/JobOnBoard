@@ -201,10 +201,14 @@ function SpecialFeatures() {
                                                     <div className="elementor-icon-box-wrapper">
                                                         <div className="elementor-icon-box-icon">
                                                             <span className="elementor-icon elementor-animation-">
-                                                                <i
-                                                                    aria-hidden="true"
-                                                                    className="icon icon-smartphone2"
+                                                            <i aria-hidden="true" >
+                                                                <img 
+                                                                    src="./ProfileOptimization.webp" 
+                                                                    alt="Icon" 
+                                                                    className="elementor-png-icon" 
+                                                                    style={{ width: '50px', height: '40px' }}
                                                                 />
+                                                            </i>
                                                             </span>
                                                         </div>
                                                         <div className="elementor-icon-box-content">
@@ -237,10 +241,14 @@ function SpecialFeatures() {
                                                     <div className="elementor-icon-box-wrapper">
                                                         <div className="elementor-icon-box-icon">
                                                             <span className="elementor-icon elementor-animation-">
-                                                                <i
-                                                                    aria-hidden="true"
-                                                                    className="jki jki-accessible-icon"
-                                                                />{" "}
+                                                            <i aria-hidden="true" >
+                                                                <img 
+                                                                    src="./CareerGrowth.webp" 
+                                                                    alt="Icon" 
+                                                                    className="elementor-png-icon" 
+                                                                    style={{ width: '50px', height: '40px' }}
+                                                                />
+                                                            </i>
                                                             </span>
                                                         </div>
                                                         <div className="elementor-icon-box-content">
@@ -281,10 +289,14 @@ function SpecialFeatures() {
                                                     <div className="elementor-icon-box-wrapper">
                                                         <div className="elementor-icon-box-icon">
                                                             <span className="elementor-icon elementor-animation-">
-                                                                <i
-                                                                    aria-hidden="true"
-                                                                    className="icon icon-shield11"
+                                                            <i aria-hidden="true" >
+                                                                <img 
+                                                                    src="./CommunitySupport.webp" 
+                                                                    alt="Icon" 
+                                                                    className="elementor-png-icon" 
+                                                                    style={{ width: '50px', height: '40px' }}
                                                                 />
+                                                            </i>
                                                             </span>
                                                         </div>
                                                         <div className="elementor-icon-box-content">
@@ -317,10 +329,14 @@ function SpecialFeatures() {
                                                     <div className="elementor-icon-box-wrapper">
                                                         <div className="elementor-icon-box-icon">
                                                             <span className="elementor-icon elementor-animation-">
-                                                                <i
-                                                                    aria-hidden="true"
-                                                                    className="jki jki-building-solid"
-                                                                />{" "}
+                                                            <i aria-hidden="true" >
+                                                                <img 
+                                                                    src="./JobForEveryone.webp" 
+                                                                    alt="Icon" 
+                                                                    className="elementor-png-icon" 
+                                                                    style={{ width: '40px', height: '40px' }}
+                                                                />
+                                                            </i>
                                                             </span>
                                                         </div>
                                                         <div className="elementor-icon-box-content">
