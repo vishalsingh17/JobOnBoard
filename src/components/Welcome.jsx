@@ -1,4 +1,7 @@
 import React from 'react'
+import Lottie from 'lottie-react';
+
+import WelcomeAnimation from './WelcomeAnimation.json'; 
 
 function Welcome() {
     return (
@@ -37,19 +40,21 @@ function Welcome() {
                                 <div className="elementor-widget-container">
                                     <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_61_1_6604237b1e2ee">
                                         <div className="heading-section-title  display-inline-block">
-                                            <h2 className="heading-title">
-                                            Not sure how to start your interview preparation?<br/>
+                                        <h6 className="heading-title" style={{ whiteSpace: 'nowrap' }}>
+                                            <span>Not sure how to start</span><br/>
+                                            your interview preparation?<br/>
                                             We've got you covered.
-                                            </h2>
+                                        </h6>
                                         </div>
                                         <div className="heading-section-description">
                                             <p>
-                                            Unlock your career potential and empower your job search with our expert consultation, job hacks, and guaranteed interview calls.
+                                                Unlock your career potential and empower your job search with our expert consultation, job hacks, and guaranteed interview calls.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div
                                 className="elementor-element elementor-element-24862b4 elementor-widget__width-auto elementor-widget elementor-widget-button"
                                 data-id="24862b4"
@@ -149,22 +154,30 @@ function Welcome() {
                         data-settings='{"animation":"fadeInRight"}'
                     >
                         <div className="elementor-widget-wrap elementor-element-populated">
+                            {/* Other elements */}
+                        </div>
+                    </div>
+                    <div
+                        className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7cd3b263 elementor-invisible"
+                        data-id="7cd3b263"
+                        data-element_type="column"
+                        data-settings='{"animation":"fadeInRight"}'
+                    >
+                        <div className="elementor-widget-wrap elementor-element-populated">
+                            {/* Use Lottie component to render animation */}
                             <div
-                                className="elementor-element elementor-element-64ad2b2 elementor-widget elementor-widget-image"
-                                data-id="64ad2b2"
+                                className="elementor-element elementor-element-72de847f elementor-widget__width-auto elementor-widget elementor-widget-image"
+                                data-id="72de847f"
                                 data-element_type="widget"
                                 data-widget_type="image.default"
                             >
                                 <div className="elementor-widget-container">
-                                    <img
-                                        width={655}
-                                        height={708}
-                                        src="./WelcomeImg.jpg"
-                                        className="attachment-large size-large wp-image-5"
-                                        alt=""
-                                        decoding="async"
-                                        loading="lazy"
-                                        sizes="(max-width: 655px) 100vw, 655px"
+                                    {/* Render Lottie animation */}
+                                    <Lottie
+                                        animationData={WelcomeAnimation}
+                                        loop={true}
+                                        autoplay={true}
+                                        style={{ width: 615, height: 708 }}
                                     />
                                 </div>
                             </div>
