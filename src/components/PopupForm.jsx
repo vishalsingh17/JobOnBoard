@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import './PopupForm.css';
-import axios from 'axios';
 
 function PopupForm() {
     const [visible, setVisible] = useState(false);
@@ -15,7 +14,6 @@ function PopupForm() {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            console.log("Timer expired, making form visible");
             setVisible(true);
         }, 15000);
 
@@ -23,7 +21,6 @@ function PopupForm() {
     }, []);
 
     const handleClose = () => {
-        console.log("Closing form");
         setVisible(false);
     };
 
@@ -62,7 +59,6 @@ function PopupForm() {
             setSubmitting(true);
 
             try {
-                // Make an HTTP POST request to your API endpoint
                 const response = await fetch("http://localhost:5000/api/collect/submit", {
                     method: "POST",
                     headers: {
@@ -74,9 +70,7 @@ function PopupForm() {
                         email: email,
                         phone: value,
                         message: message
-
                     }),
-
                     mode: "cors",
                     referrerPolicy: "origin-when-cross-origin",
                 });
@@ -93,7 +87,6 @@ function PopupForm() {
                 setSubmitting(false);
             } catch (error) {
                 console.error("Error submitting form:", error);
-                // Handle error
                 setSubmitting(false);
             }
         }
@@ -102,31 +95,41 @@ function PopupForm() {
     return (
         <div className={`full-page ${visible ? 'visible' : 'hidden'}`}>
             <div className="form-container">
-                <div style={{ marginLeft: "420px", marginTop: "-10px" }}>
-                    <button className='cross' type="button" onClick={handleClose} style={{ backgroundColor: "transparent" }}>
-                        <i className="fa-solid fa-xmark"></i>
-                    </button>
-                </div>
-
-                <div>
-                    <h4 className="form-heading">Hi Techie &#x1F44B;<br/>Interested in elevating your career? <br/>Request a callback</h4>
-                </div>
-
+                <button className='cross' type="button" onClick={handleClose}>
+                    <i className="fa-solid fa-xmark"></i>
+                </button>
+                <h4 className="form-heading">Hi Techie &#x1F44B;<br />Interested in elevating your career? <br />Request a callback</h4>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="name">Name:</label>
-                        <input type="text" id="name" name="name" value={name} placeholder="Enter name" required onChange={(e) => setName(e.target.value)} />
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value={name}
+                            placeholder="Enter name"
+                            required
+                            onChange={(e) => setName(e.target.value)}
+                        />
                         {errors.name && <span className="error">{errors.name}</span>}
                     </div>
 
                     <div className="form-group">
                         <label htmlFor="email">Email:</label>
-                        <input type="email" id="email" name="email" value={email} placeholder="Enter email id" required onChange={(e) => setEmail(e.target.value)} />
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value={email}
+                            placeholder="Enter email id"
+                            required
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
                         {errors.email && <span className="error">{errors.email}</span>}
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="phone">Phone Number:</label><br /><br />
+                        <label htmlFor="phone">Phone Number:</label>
                         <PhoneInput
                             placeholder="Enter phone number"
                             countryCallingCodeEditable={false}
@@ -139,15 +142,27 @@ function PopupForm() {
 
                     <div className="form-group">
                         <label htmlFor="message">Message</label>
-                        <textarea className="form-control" value={message} placeholder="Leave a comment here" id="message" style={{ height: '100px' }} onChange={(e) => setMessage(e.target.value)}></textarea>
+                        <textarea
+                            className="form-control"
+                            value={message}
+                            placeholder="Leave a comment here"
+                            id="message"
+                            style={{ height: '100px' }}
+                            onChange={(e) => setMessage(e.target.value)}
+                        ></textarea>
                         {errors.message && <span className="error">{errors.message}</span>}
                     </div>
 
-                    <button type="submit" disabled={submitting}>Submit</button>
+                    <div className="button-container">
+                        <button type="submit" disabled={submitting}>Submit</button>
+                    </div>
                 </form>
             </div>
+            <div className="image-container">
+                <img src="WelcomeImg.jpg" alt="Your Image" />
+            </div>
         </div>
-    )
+    );
 }
 
 export default PopupForm;
