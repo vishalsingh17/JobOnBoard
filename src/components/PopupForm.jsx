@@ -66,14 +66,18 @@ function PopupForm() {
                         "Access-Control-Allow-Origin": "*",
                     },
                     body: JSON.stringify({
-                        name: name,
-                        email: email,
+                        name,
+                        email,
                         phone: value,
-                        message: message
+                        message
                     }),
                     mode: "cors",
                     referrerPolicy: "origin-when-cross-origin",
                 });
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
 
                 const data = await response.json();
 
@@ -95,71 +99,73 @@ function PopupForm() {
     return (
         <div className={`full-page ${visible ? 'visible' : 'hidden'}`}>
             <div className="form-container">
-                <button className='cross' type="button" onClick={handleClose}>
+                <button className='cross' type="button" onClick={handleClose} aria-label="Close form">
                     <i className="fa-solid fa-xmark"></i>
                 </button>
-                <h4 className="form-heading">Hi Techie &#x1F44B;<br />Interested in elevating your career? <br />Request a callback</h4>
-                <form onSubmit={handleSubmit}>
-                    <div className="form-group">
-                        <label htmlFor="name">Name:</label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            value={name}
-                            placeholder="Enter name"
-                            required
-                            onChange={(e) => setName(e.target.value)}
-                        />
-                        {errors.name && <span className="error">{errors.name}</span>}
-                    </div>
+                <div className="form-content">
+                    <h4 className="form-heading">Hi Techie &#x1F44B;<br />Interested in elevating your career? <br />Request a callback</h4>
+                    <form onSubmit={handleSubmit}>
+                        <div className="form-group">
+                            <label htmlFor="name">Name:</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                value={name}
+                                placeholder="Enter name"
+                                required
+                                onChange={(e) => setName(e.target.value)}
+                            />
+                            {errors.name && <span className="error">{errors.name}</span>}
+                        </div>
 
-                    <div className="form-group">
-                        <label htmlFor="email">Email:</label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            value={email}
-                            placeholder="Enter email id"
-                            required
-                            onChange={(e) => setEmail(e.target.value)}
-                        />
-                        {errors.email && <span className="error">{errors.email}</span>}
-                    </div>
+                        <div className="form-group">
+                            <label htmlFor="email">Email:</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                value={email}
+                                placeholder="Enter email id"
+                                required
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                            {errors.email && <span className="error">{errors.email}</span>}
+                        </div>
 
-                    <div className="form-group">
-                        <label htmlFor="phone">Phone Number:</label>
-                        <PhoneInput
-                            placeholder="Enter phone number"
-                            countryCallingCodeEditable={false}
-                            defaultCountry="IN"
-                            value={value}
-                            onChange={setValue}
-                        />
-                        {errors.phone && <span className="error">{errors.phone}</span>}
-                    </div>
+                        <div className="form-group">
+                            <label htmlFor="phone">Phone Number:</label>
+                            <PhoneInput
+                                placeholder="Enter phone number"
+                                countryCallingCodeEditable={false}
+                                defaultCountry="IN"
+                                value={value}
+                                onChange={setValue}
+                            />
+                            {errors.phone && <span className="error">{errors.phone}</span>}
+                        </div>
 
-                    <div className="form-group">
-                        <label htmlFor="message">Message</label>
-                        <textarea
-                            className="form-control"
-                            value={message}
-                            placeholder="Leave a comment here"
-                            id="message"
-                            style={{ height: '100px' }}
-                            onChange={(e) => setMessage(e.target.value)}
-                        ></textarea>
-                        {errors.message && <span className="error">{errors.message}</span>}
-                    </div>
+                        <div className="form-group">
+                            <label htmlFor="message">Message:</label>
+                            <textarea
+                                className="form-control"
+                                value={message}
+                                placeholder="Leave a comment here"
+                                id="message"
+                                style={{ height: '100px' }}
+                                onChange={(e) => setMessage(e.target.value)}
+                            ></textarea>
+                            {errors.message && <span className="error">{errors.message}</span>}
+                        </div>
 
-                    <div className="button-container">
-                        <button type="submit" disabled={submitting}>Submit</button>
-                    </div>
-                </form>
-            </div>
-            <div className="image-container">
-                <img src="WelcomeImg.jpg" alt="Your Image" />
+                        <div className="button-container">
+                            <button type="submit" disabled={submitting}>Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div className="image-container">
+                    <img src="WelcomeImg.jpg" alt="Welcome" />
+                </div>
             </div>
         </div>
     );

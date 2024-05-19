@@ -29,6 +29,8 @@ function CommonQues() {
         // Add more card data as needed
     ];
     
+
+    
     return (
         <div>
             <section
