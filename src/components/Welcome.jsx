@@ -92,7 +92,7 @@ function Welcome() {
                                         data-start={0}
                                         data-end={0}
                                     >
-                                        <a href="#" className="jkit-video-popup-btn glow-enable">
+                                        <a href="http://localhost:3000/services" className="jkit-video-popup-btn glow-enable">
                                             <span className="icon-position-before">
                                                 <i aria-hidden="true" className="jki jki-play1-light" />
                                             </span>
