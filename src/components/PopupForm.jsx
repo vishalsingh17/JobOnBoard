@@ -106,13 +106,13 @@ function PopupForm() {
                     <h4 className="form-heading">Hi Techie &#x1F44B;<br />Interested in elevating your career? <br />Request a callback</h4>
                     <form onSubmit={handleSubmit}>
                         <div className="form-group">
-                            <label htmlFor="name">Name:</label>
+                            {/* <label htmlFor="name">Name:</label> */}
                             <input
                                 type="text"
                                 id="name"
                                 name="name"
                                 value={name}
-                                placeholder="Enter name"
+                                placeholder="Enter your name"
                                 required
                                 onChange={(e) => setName(e.target.value)}
                             />
@@ -120,13 +120,14 @@ function PopupForm() {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="email">Email:</label>
+                            <p> </p>
+                            {/* <label htmlFor="email">Email:</label> */}
                             <input
                                 type="email"
                                 id="email"
                                 name="email"
                                 value={email}
-                                placeholder="Enter email id"
+                                placeholder="Enter your email id"
                                 required
                                 onChange={(e) => setEmail(e.target.value)}
                             />
@@ -134,9 +135,10 @@ function PopupForm() {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="phone">Phone Number:</label>
+                            <p> </p>
+                            {/* <label htmlFor="phone">Phone Number:</label> */}
                             <PhoneInput
-                                placeholder="Enter phone number"
+                                placeholder="Enter your phone number"
                                 countryCallingCodeEditable={false}
                                 defaultCountry="IN"
                                 value={value}
@@ -146,11 +148,12 @@ function PopupForm() {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="message">Message:</label>
+                            <p> </p>
+                            {/* <label htmlFor="message">Message:</label> */}
                             <textarea
                                 className="form-control"
                                 value={message}
-                                placeholder="Leave a comment here"
+                                placeholder="Leave your comments / suggestions here"
                                 id="message"
                                 style={{ height: '100px' }}
                                 onChange={(e) => setMessage(e.target.value)}
@@ -164,7 +167,7 @@ function PopupForm() {
                     </form>
                 </div>
                 <div className="image-container">
-                    <img src="WelcomeImg.jpg" alt="Welcome" />
+                    <img src="PopFormImg.png" alt="Welcome" />
                 </div>
             </div>
         </div>

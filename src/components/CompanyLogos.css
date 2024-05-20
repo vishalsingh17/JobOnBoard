@@ -1,0 +1,63 @@
+.logos-section {
+    background-color: #0266FF; /* Background color is white */
+    color: #000; /* Text color is black */
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .logos-section h2 {
+    margin-bottom: 20px;
+    color: #000; /* Text color is black */
+    }
+    
+    .logos-grid {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .logos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .logos-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%; /* Ensure the row takes full width */
+    flex-wrap: wrap; /* Allow wrapping to handle smaller screens */
+    }
+    
+    .logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    }
+    
+    .logo img {
+    max-height: 50px; /* Adjust as necessary */
+    margin: 10px; /* Space around logos */
+    }
+    
+    .separator {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ccc; /* Light grey line */
+    margin: 20px 0; /* Space around the separator */
+    }
+    
+    .logo-row .logo:not(:last-child) {
+    border-right: 1px solid #ccc;
+    }
+    
+    @media (max-width: 1200px) {
+    .logo img {
+    max-height: 40px; /* Adjust for medium screens */
+    }
+    }

@@ -73,7 +73,7 @@
 
 /* Label */
 label {
-  color: #6d55ac;
+  color: #0266ff;
   font-weight: bold;
 }
 
@@ -106,11 +106,12 @@ select:focus,
 
 /* Button */
 button[type="submit"] {
-  background-color: #6b5b95;
+  background-color: #0266ff;
   color: #fff;
-  padding: 10px 20px;
+  padding: 15px 30px; /* Increased padding for larger size */
+  font-size: 18px; /* Increased font size for larger text */
   border: none;
-  border-radius: 5px;
+  border-radius: 8px; /* Slightly larger border-radius for proportion */
   cursor: pointer;
   transition: background-color 0.3s;
 }
