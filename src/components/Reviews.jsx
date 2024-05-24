@@ -36,7 +36,7 @@ function Reviews() {
                             >
                                 <div className="elementor-widget-container">
                                     <h2 className="elementor-heading-title elementor-size-default">
-                                        The Successful Story Of Our Client
+                                        The Successful Story Of Our Clients
                                     </h2>
                                 </div>
                             </div>
@@ -48,9 +48,8 @@ function Reviews() {
                             >
                                 <div className="elementor-widget-container">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                        elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                                        leo.
+                                        Our clients are at the core of everything we do.<br/>
+                                        Don't take our words. Trust our customers.
                                     </p>
                                 </div>
                             </div>
